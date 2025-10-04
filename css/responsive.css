@@ -1,4 +1,7 @@
-/* Responsividade */
+/* ============================================= */
+/* RESPONSIVIDADE */
+/* ============================================= */
+
 @media (max-width: 1024px) {
     .about-content, 
     .trial-content, 
@@ -54,6 +57,34 @@
     .footer-column {
         margin-bottom: 30px;
     }
+
+    .plan-card {
+        padding: 30px 20px;
+    }
+    
+    .whatsapp-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul.show {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -78,27 +109,21 @@
     }
     
     .services-grid,
-    .plans-grid,
     .instagram-feed {
         grid-template-columns: 1fr;
     }
     
-    .mobile-menu {
-        display: block;
+    .trial-form {
+        padding: 20px;
     }
     
-    nav ul {
-        display: none;
+    .contact-details p {
         flex-direction: column;
-        width: 100%;
-        text-align: center;
+        align-items: flex-start;
+        gap: 5px;
     }
     
-    nav ul.show {
-        display: flex;
-    }
-    
-    nav ul li {
-        margin: 10px 0;
+    .contact-details i {
+        margin-right: 0;
     }
 }
